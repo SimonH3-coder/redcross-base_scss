@@ -1,7 +1,8 @@
 //import
-@use "partials-nav.scss";
+@use "partials-mixins.scss" as *;
 @use "partials-variables.scss" as *;
-@use "partials-section1.scss" as *;
+@use "partials-nav.scss";
+@use "partials-section1.scss";
 
 body {
   font-family: "Akzidenz-Grotesk Black";
