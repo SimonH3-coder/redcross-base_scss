@@ -1,0 +1,16 @@
+//import
+@use "partials-variables.scss" as *;
+
+body {
+  font-family: "Akzidenz-Grotesk Black";
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color1;
+  color: $primary-color4;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

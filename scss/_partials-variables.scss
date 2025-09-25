@@ -1,0 +1,37 @@
+//primary colors
+$primary-color1: #ffffff;
+$primary-color2: #6d6e70;
+$primary-color3: #ed1b2e;
+$primary-color4: #000000;
+
+//Neutral colors
+$neutral-color1: #d7d7d8;
+$neutral-color2: #9f9fa3;
+
+//Secondary colors
+$secondary-color1: #e2d7ac;
+$secondary-color2: #b4a996;
+$secondary-color3: #ecb731;
+$secondary-color4: #8ec06c;
+$secondary-color5: #537b35;
+$secondary-color6: #c4dff6;
+$secondary-color7: #55a0d3;
+$secondary-color8: #0091cd;
+$secondary-color9: #004b79;
+$secondary-color10: #7f181b;
+
+//Front 1
+@font-face {
+  font-family: "Akzidenz-Grotesk Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Akzidenz Grotesk Black"), url("assets/fonts/Akzidenz-grotesk-black.woff") format("woff");
+}
+
+//Front 2
+@font-face {
+  font-family: "Georgia Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia Regular"), url("assets/fonts/Georgia-Regular.woff") format("woff");
+}
