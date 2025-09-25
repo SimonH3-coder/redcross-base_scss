@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Akzidenz-Grotesk Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Akzidenz Grotesk Black"), url("assets/fonts/Akzidenz-grotesk-black.woff") format("woff");
+}
+@font-face {
+  font-family: "Georgia Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia Regular"), url("assets/fonts/Georgia-Regular.woff") format("woff");
+}
+body {
+  font-family: "Akzidenz-Grotesk Black";
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #0e712d;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
