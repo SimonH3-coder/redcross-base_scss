@@ -37,6 +37,15 @@ nav ul li a:hover {
   color: #ed1b2e;
 }
 
+.oneredcross {
+  border: 2px solid #e2d7ac;
+  border-radius: 50px;
+  background-color: #6d6e70;
+  color: #ffffff;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
 body {
   font-family: "Akzidenz-Grotesk Black";
   line-height: 1.6;
