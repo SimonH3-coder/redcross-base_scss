@@ -10,12 +10,39 @@
   font-weight: normal;
   src: local("Georgia Regular"), url("assets/fonts/Georgia-Regular.woff") format("woff");
 }
+nav {
+  background-color: #ffffff;
+  font-family: "Akzidenz-Grotesk Black", sans-serif;
+  padding: 0.5rem 1rem;
+  transition: 300ms ease-in-out;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+nav ul li {
+  margin-bottom: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #6d6e70;
+}
+nav ul li a:hover {
+  filter: brightness(0.8) contrast(2);
+  color: #ed1b2e;
+}
+
 body {
   font-family: "Akzidenz-Grotesk Black";
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #0e712d;
+  background-color: #ffffff;
   color: #000000;
 }
 
