@@ -40,10 +40,22 @@ nav ul li a:hover {
 .oneredcross {
   border: 2px solid #e2d7ac;
   border-radius: 50px;
-  background-color: #6d6e70;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #6d6e70;
   padding: 1rem;
   margin: 1rem 0;
+}
+.oneredcross h2 {
+  color: #ed1b2e;
+  font-family: "Akzidenz-Grotesk Black", sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 4rem;
+}
+.oneredcross p {
+  color: #000000;
+  font-family: "Georgia Regular", serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 body {

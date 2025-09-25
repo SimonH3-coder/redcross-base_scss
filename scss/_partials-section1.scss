@@ -3,8 +3,22 @@
 
 .oneredcross {
   @include section-style;
-  background-color: $primary-color2;
-  color: $primary-color1;
+  background-color: $primary-color1;
+  color: $primary-color2;
   padding: 1rem;
   margin: 1rem 0;
+
+  h2 {
+    color: $primary-color3;
+    font-family: "Akzidenz-Grotesk Black", sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+  }
+
+  p {
+    color: $primary-color4;
+    font-family: "Georgia Regular", serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
 }
